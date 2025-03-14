@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import pandas as pd
 
 # Set up Gemini API key
-genai.configure(api_key="AIzaSyB7X8onwyVgpAmzbDiXDsVucKoNdrTymkk")
+genai.configure(api_key="your-api-key")
 
 # Extract text from uploaded PDF using PyPDF2
 def extract_text_from_pdf(pdf_file):

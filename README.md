@@ -26,12 +26,12 @@ git clone https://github.com/MeghnaP0705/AI-Resume-Screening-and-Candidate-Match
 cd AI-Resume-Screening-and-Candidate-Matching
 ```
 
-### 3. Install Dependencies
+### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Set Up Google Gemini API
+### 3. Set Up Google Gemini API
 1. Sign up at [Google AI Studio](https://aistudio.google.com/).
 2. Generate an API key.
 3. Add your key to the `main.py` code
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 GEMINI_API_KEY="your-api-key"  
 ```
 
-### 5. Run the Application
+### 4. Run the Application
 ```bash
 streamlit run main.py
 ```
